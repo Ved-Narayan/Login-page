@@ -1,0 +1,64 @@
+body {
+    background: radial-gradient(circle, white, black);
+}
+
+.box {
+    background-color: black;
+    margin: 120px auto;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 35px auto;
+    border: 2px solid black;
+    border-color: skyblue;
+    background-color: black;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+/* ::placeholder {
+    color: goldenrod;
+} */
+
+h1 {
+    display: block;
+    padding-top: 50px;
+    text-transform: uppercase;
+    /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+    /*text-shadow: -1px 0 red;*/
+    /* text-shadow: 1px 1px 2px red; */
+
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: white;
+}
+
+.a:hover {
+    color: red;
+}
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
